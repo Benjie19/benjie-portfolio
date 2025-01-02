@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* Reset and global styles */
+    body, h1, h2, p, ul, li, a, img, input, textarea, button {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      color: #333;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    /* Header */
+    .header {
+      background: #444;
+      color: #fff;
+      padding: 1rem 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-size: 1.5rem;
+    }
+
+    .nav ul {
+      list-style: none;
+      display: flex;
+      gap: 1rem;
+    }
+
+    .nav a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    /* Section styles */
+    .section {
+      padding: 2rem 0;
+    }
+
+    .about {
+      background: #f4f4f4;
+      text-align: center;
+    }
+
+    .about-content {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+
+    .profile-pic {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      border: 2px solid #ddd;
+    }
+
+    .about-details {
+      text-align: left;
+      max-width: 600px;
+    }
+
+    .about-details p {
+      margin: 0.5rem 0;
+    }
+
+    /* Footer */
+    .footer {
+      text-align: center;
+      padding: 1rem 0;
+      background: #444;
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <h1 class="logo">My Portfolio</h1>
+      <nav class="nav">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="about" class="section about">
+      <div class="container">
+        <h2>About Me</h2>
+        <div class="about-content">
+          <img src="c.jpg" alt="Your Name" class="profile-pic">
+          <div class="about-details">
+            <p>Hello! I'm Binagatan Benjie D.</p>
+            <p>Im 3rd Year College taking Diploma of Technology Major in INFORMATION TECHNOLOGY</p>
+            <p><strong>Address:</strong> Tugbungan, Narra Drive Z.C</p>
+            <p><strong>Age:</strong> Im 24yrs Old</p>
+            <p><strong>Place of Birth:</strong> Talon-talon Zamboanga city</p>
+            <p><strong>Religion:</strong> Roman Catholic</p>
+            <p><strong>Date of Birth:</strong> April 29, 2000</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <h2>My Projects</h2>
+        <p>Project details coming soon!</p>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container">
+        <h2>Contact Me</h2>
+        <form action="#" method="post">
+          <input type="text" name="name" placeholder="Your Name" required>
+          <input type="email" name="email" placeholder="Your Email" required>
+          <textarea name="message" placeholder="Your Message" required></textarea>
+          <button type="submit">Send</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2024 My Portfolio. All Rights Reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
